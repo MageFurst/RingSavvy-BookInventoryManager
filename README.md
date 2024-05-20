@@ -34,4 +34,4 @@ npm start
 
 Thank you for considering my application, and I hope to discuss with you further in future!
 
-You can find a hosted version of this service by going [here].(https://ringsavvy-bookinventorymanager.onrender.com)
+You can find a hosted version of this service by going [here](https://ringsavvy-bookinventorymanager.onrender.com).
