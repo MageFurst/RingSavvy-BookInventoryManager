@@ -27,6 +27,7 @@ This project uses the following dependencies:
 First, ensure all dependencies are installed, then use:
 
 ```bash
+npm install
 npm run build
 npm start
 ```
