@@ -11,17 +11,9 @@ async function handleClick() {
 
     var element = document.getElementById("isbn_entry")
 
-    if(element.value.length === 10){
-        if(element.value.length % 11 === 0){
+    if(element.value.length === 10 || element.value.length === 13){
             backend.createJSON(element.value)
             backend.getJSON();
-        }
-    }
-    else if(element.value.length === 13){
-        if(element.value.length % 10 === 0){
-            backend.createJSON(element.value)
-            backend.getJSON();
-        }
     }
     else{
         element.setAttribute('type', 'text')
